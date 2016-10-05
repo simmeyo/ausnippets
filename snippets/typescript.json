@@ -1,19 +1,34 @@
 {
-    "Creating Aurelia Service": {
-        "prefix": "auservice",
-        "body": [
-            "import { autoinject } from 'aurelia-framework';",
-            "import { HttpClient, json } from 'aurelia-fetch-client';",
-            "",
-            "@autoinject()",
-            "export class ${name:Name}Service {",
-            "",
-            "\tconstructor(private http: HttpClient) {",
-            "\t}",
-            "",
-            "\tget${name}(id: string) {",
-            "\t}",
-            "}"
-        ]
-    }
+  "Creating Aurelia Service": {
+    "prefix": "au-service",
+    "body": [
+      "import { autoinject } from 'aurelia-framework';",
+      "import { HttpClient, json } from 'aurelia-fetch-client';",
+      "",
+      "@autoinject()",
+      "export class ${ServiceName}Service {",
+      "$0",
+      "\tconstructor(private http: HttpClient) {",
+      "\t}",
+      "",
+      "\tpublic async get${ServiceName}(id: string) {",
+      "\t$1",
+      "\t}",
+      "}"
+    ],
+    "description": "Aurelia Service"
+  },
+  "Creating Aurelia Route Configuration": {
+    "prefix": "au-router",
+    "body": [
+      "configureRouter(config: RouterConfiguration, router: Router): void {",
+      "\tthis.router = router;",
+      "\tconfig.title = '${Title}';",
+      "\tconfig.map([",
+      "\t\t{ route: '${address}', name: '${name}', moduleId:'./${url}', nav:${nav:true},  title:'${title}' }$0",
+      "\t]);",
+      "}"
+    ],
+    "description": "Aurelia router snippet"
+  }
 }
