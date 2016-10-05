@@ -13,8 +13,7 @@
             "",
             "\tget${name}(id: string) {",
             "\t}",
-            "}",
-            "TEEEEEEEEEEEST"
+            "}"
         ]
-    },
+    }
 }
