@@ -1,0 +1,26 @@
+{
+    "name": "Aurelia",
+    "displayName": "Au Snippets",
+    "description": "Snippets for Aurelia for Aurelia 1.0",
+    "version": "0.0.1",
+    "license": "",
+    "publisher": "Simon",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}

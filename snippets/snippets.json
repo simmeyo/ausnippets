@@ -1,0 +1,19 @@
+{
+    "Creating Aurelia Service": {
+    "prefix": "auservice",
+    "body": [
+      "import { autoinject } from 'aurelia-framework';",
+      "import { HttpClient, json } from 'aurelia-fetch-client';",
+      "",
+      "@autoinject()",
+      "export class ${name: Enter your Modelname}Service{",
+      "",
+      "\tconstructor(private http: HttpClient){",
+      "\t}",
+      "",
+      "\tget${name}(id:string){",
+      "\t}",
+      "}"
+    ]
+  }
+}
