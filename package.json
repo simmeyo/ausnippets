@@ -4,6 +4,11 @@
     "description": "Snippets for Aurelia for Aurelia 1.0",
     "version": "0.0.1",
     "license": "",
+    "icon": "images/logo.png",
+    "repository": {
+        "type": "Github",
+        "url": "https://github.com/simmeyo/ausnippets"
+    },
     "publisher": "Simon",
     "engines": {
         "vscode": "0.10.x"
