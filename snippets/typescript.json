@@ -7,16 +7,15 @@
       "",
       "@autoinject()",
       "export class ${ServiceName}Service {",
-      "$0",
+      "\t$0",
       "\tconstructor(private http: HttpClient) {",
       "\t}",
       "",
       "\tpublic async get${ServiceName}(id: string) {",
-      "\t$1",
+      "\t\t$1",
       "\t}",
       "}"
-    ],
-    "description": "Aurelia Service"
+    ]
   },
   "Creating Aurelia Route Configuration": {
     "prefix": "au-router",
@@ -30,5 +29,22 @@
       "}"
     ],
     "description": "Aurelia router snippet"
+  },
+  "Creating Aurelia computed property": {
+    "prefix": "au-computed",
+    "body": [
+      "@computedFrom('${first:first}', '${second:second}')",
+      "get ${full}(): string {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "Creating Aurelia ValueChanged": {
+    "prefix": "au-value",
+    "body": [
+      "public ${value}Changed(newValue: any, oldValue: any) {",
+      "\t$0",
+      "}"
+    ]
   }
 }

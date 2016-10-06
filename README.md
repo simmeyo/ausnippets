@@ -1,4 +1,4 @@
-# Aurelia Snippets for VS Code
+# Aurelia 1.0 Snippets for VS Code
 
 An extension for VSCode snippets for Typescript and HTML.
 
@@ -9,6 +9,18 @@ Type au... press `enter`, and the snippet unfolds.
 ```Typescript
 au-router // Aurelia basic router
 au-service // Aurelia service template
+au-computed // Aurelia computed property
+au-value // Aurelia valueChanged method
+```
+
+### HTML Snippets
+```HTML
+au-if.bind // Aurelia if snippet
+au-value.bind // Aurelia value.bind snippet
+au-checked.bind // Aurelia checked binding snippet
+au-require // Aurelia require snippet
+au-template // Aurelia template snippet
+au-show // Aurelia show binding snippet
 ```
 
 

@@ -1,0 +1,53 @@
+{
+  "au-if": {
+    "prefix": "au-if.bind",
+    "body": [
+      "if.bind=\"${expression}\""
+    ],
+    "description": "Aurelia if snippet"
+  },
+  "au-value": {
+    "prefix": "au-value.bind",
+    "body": [
+      "value.bind=\"${binding}\""
+    ],
+    "description": "Aurelia value.bind snippet"
+  },
+  "au-for": {
+    "prefix": "au-repeat.for",
+    "body": [
+      "repeat.for=\"${item} of ${collection}\""
+    ],
+    "description": "Aurelia for loop snippet"
+  },
+  "auChecked": {
+    "prefix": "au-checked.bind",
+    "body": [
+      "checked.bind=\"${binding}\""
+    ],
+    "description": "Aurelia checked binding snippet"
+  },
+  "au-require": {
+    "prefix": "au-require",
+    "body": [
+      "<require from=\"${url}\"></require>"
+    ],
+    "description": "Aurelia require snippet"
+  },
+  "au-template": {
+    "prefix": "au-template",
+    "body": [
+      "<template>",
+      "${Your Template Here}",
+      "</template>"
+    ],
+    "description": "Aurelia template snippet"
+  },
+  "au-show": {
+    "prefix": "au-show.bind",
+    "body": [
+      "show.bind=\"${binding}\""
+    ],
+    "description": "Aurelia show binding snippet"
+  }
+}
