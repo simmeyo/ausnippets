@@ -11,6 +11,7 @@ au-router // Aurelia basic router
 au-service // Aurelia service template
 au-computed // Aurelia computed property
 au-value // Aurelia valueChanged method
+au-converter // Aurelia basic converter template
 ```
 
 ### HTML Snippets
